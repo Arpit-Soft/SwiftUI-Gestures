@@ -13,6 +13,7 @@
 		2D54DEAA2698663800E19DCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D54DEA92698663800E19DCA /* Preview Assets.xcassets */; };
 		2D54DEB52698663800E19DCA /* SwiftUI_GesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54DEB42698663800E19DCA /* SwiftUI_GesturesTests.swift */; };
 		2D54DEC02698663800E19DCA /* SwiftUI_GesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54DEBF2698663800E19DCA /* SwiftUI_GesturesUITests.swift */; };
+		2D54DED5269867AA00E19DCA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54DED4269867AA00E19DCA /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2D54DEBB2698663800E19DCA /* SwiftUI-GesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-GesturesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D54DEBF2698663800E19DCA /* SwiftUI_GesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GesturesUITests.swift; sourceTree = "<group>"; };
 		2D54DEC12698663800E19DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D54DED4269867AA00E19DCA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		2D54DEA12698663100E19DCA /* SwiftUI-Gestures */ = {
 			isa = PBXGroup;
 			children = (
+				2D54DED02698679700E19DCA /* View */,
 				2D54DEA22698663100E19DCA /* SwiftUI_GesturesApp.swift */,
 				2D54DEA42698663100E19DCA /* ContentView.swift */,
 				2D54DEA62698663800E19DCA /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				2D54DEC12698663800E19DCA /* Info.plist */,
 			);
 			path = "SwiftUI-GesturesUITests";
+			sourceTree = "<group>";
+		};
+		2D54DED02698679700E19DCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D54DED4269867AA00E19DCA /* Card.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D54DEA52698663100E19DCA /* ContentView.swift in Sources */,
+				2D54DED5269867AA00E19DCA /* Card.swift in Sources */,
 				2D54DEA32698663100E19DCA /* SwiftUI_GesturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
